@@ -19,7 +19,7 @@ class InteractiveResPicker:
     RETURN_TYPES = ("INT", "INT", "FLOAT")
     RETURN_NAMES = ("width", "height", "aspect_ratio")
     FUNCTION = "calculate"
-    CATEGORY = "NCFR Nodes"
+    CATEGORY = "TiredbyTai"
 
     def calculate(self, width, height, divide_by):
         div = max(1, divide_by)
